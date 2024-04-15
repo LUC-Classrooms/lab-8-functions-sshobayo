@@ -19,7 +19,7 @@ myShape(400, 200, 70, 100);
   
 }
 
-function myShape(x, y, s, h) {
+function myShape(x, y, w, h) {
   // make this function more interesting
   push(); // make a separate layer
   translate(x, y); // move the origin point
