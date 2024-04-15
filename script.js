@@ -23,7 +23,7 @@ function myShape(x, y, w, h) {
   // make this function more interesting
   push(); // make a separate layer
   translate(x, y); // move the origin point
-  scale(s);
+  //scale(s);
   fill(100, 100, 200);
   ellipse(0, 0, w, h); // simple ellipse at the translated origin (0,0)
   rectMode(CENTER);
